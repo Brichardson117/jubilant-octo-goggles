@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    color: white;
+}
+
 .leftside, .rightside {
     height: 50vh;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (min-width:768px){
@@ -15,7 +23,7 @@
     background-size: cover;
 }
 
-.rightside {
-    background-color: blue;
-}
 
+.rightside>form {
+    border: 0.05cm solid black;
+}
